@@ -35,19 +35,19 @@ h1 {
 
 #game-board {
     display: grid;
-    grid-template-columns: repeat(8, 40px);
+    grid-template-columns: repeat(8, 35px);
     gap: 5px;
     justify-content: center;
     margin: 20px auto;
 }
 
 .tile {
-    width: 30px;
+    width: 35px;
     height: 35px;
     background-color: #007bff;
     color: white;
     text-align: center;
-    line-height: 50px;
+    line-height: 35px;
     font-size: 20px;
     cursor: pointer;
     border: none;
